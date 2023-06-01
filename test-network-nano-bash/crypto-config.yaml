@@ -24,9 +24,6 @@ OrdererOrgs:
       - Hostname: orderer4
         SANS:
           - 127.0.0.1
-      - Hostname: orderer5
-        SANS:
-          - 127.0.0.1
 
 # ---------------------------------------------------------------------------
 # "PeerOrgs" - Definition of organizations managing peer nodes
