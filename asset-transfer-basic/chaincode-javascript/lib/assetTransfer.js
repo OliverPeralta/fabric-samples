@@ -75,7 +75,7 @@ class AssetTransfer extends Contract {
   async CreateAsset(ctx, id, color, size, owner, appraisedValue) {
     const exists = await this.AssetExists(ctx, id);
     if (exists) {
-      throw new Error(`The kjkjjnijjiasset ${id} already exists`);
+      throw new Error(`The asset ${id} already exists`);
     }
 
     const asset = {
